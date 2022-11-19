@@ -1,0 +1,26 @@
+2022-11-19 14:44:27,908 INFO    MainThread:20 [wandb_setup.py:_flush():68] Configure stats pid to 20
+2022-11-19 14:44:27,908 INFO    MainThread:20 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2022-11-19 14:44:27,908 INFO    MainThread:20 [wandb_setup.py:_flush():68] Loading settings from /gridai/project/wandb/settings
+2022-11-19 14:44:27,908 INFO    MainThread:20 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'api_key': '***REDACTED***', '_require_service': 'True'}
+2022-11-19 14:44:27,908 INFO    MainThread:20 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': '/gridai/project/train.py'}
+2022-11-19 14:44:27,908 INFO    MainThread:20 [wandb_init.py:_log_setup():476] Logging user logs to ./wandb/run-20221119_144427-2mfckyd2/logs/debug.log
+2022-11-19 14:44:27,908 INFO    MainThread:20 [wandb_init.py:_log_setup():477] Logging internal logs to ./wandb/run-20221119_144427-2mfckyd2/logs/debug-internal.log
+2022-11-19 14:44:27,908 INFO    MainThread:20 [wandb_init.py:init():516] calling init triggers
+2022-11-19 14:44:27,908 INFO    MainThread:20 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-19 14:44:27,909 INFO    MainThread:20 [wandb_init.py:init():569] starting backend
+2022-11-19 14:44:27,909 INFO    MainThread:20 [wandb_init.py:init():573] setting up manager
+2022-11-19 14:44:27,911 INFO    MainThread:20 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-11-19 14:44:27,913 INFO    MainThread:20 [wandb_init.py:init():580] backend started and connected
+2022-11-19 14:44:27,917 INFO    MainThread:20 [wandb_init.py:init():658] updated telemetry
+2022-11-19 14:44:27,917 INFO    MainThread:20 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-11-19 14:44:28,129 INFO    MainThread:20 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-19 14:44:28,172 INFO    MainThread:20 [wandb_run.py:_on_init():2004] got version response 
+2022-11-19 14:44:28,172 INFO    MainThread:20 [wandb_init.py:init():728] starting run threads in backend
+2022-11-19 14:44:28,291 INFO    MainThread:20 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-19 14:44:28,292 INFO    MainThread:20 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-19 14:44:28,292 INFO    MainThread:20 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-19 14:44:28,292 INFO    MainThread:20 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-19 14:44:28,293 INFO    MainThread:20 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-19 14:44:39,327 INFO    MainThread:20 [wandb_run.py:_config_callback():1160] config_cb None None {'num_decoder_layers': 4, 'num_encoder_layers': 3, 'nhid': 120, 'd_model': 64, 'nhead': 2, 'dropout': 0.0, 'combine_embeds': True, 'combine_encoders': True, 'final_decoder': 'linear', 'lr': 0.0001, 'scheduler': 'onecycle', 'lr_ratio': 50.0, 'steps_per_epoch': None, 'loss_ratio': 5.0, 'run_name': 'ef_5e_2h_64_120_nel3ndl4_500_llinear_sim00', 'wandb_project': 'rttransformer', 'terminator_patience': 5, 'from_checkpoint': None, 'num_queries': 150, 'batch_size': 500, 'data_dir': '/datastores/20221119_parquet_traindata', 'logger': True, 'enable_checkpointing': True, 'default_root_dir': None, 'gradient_clip_val': 200, 'gradient_clip_algorithm': None, 'num_nodes': 1, 'num_processes': None, 'devices': None, 'gpus': 1, 'auto_select_gpus': False, 'tpu_cores': None, 'ipus': None, 'enable_progress_bar': True, 'overfit_batches': 0.0, 'track_grad_norm': -1, 'check_val_every_n_epoch': 1, 'fast_dev_run': False, 'accumulate_grad_batches': 1, 'max_epochs': 5, 'min_epochs': None, 'max_steps': -1, 'min_steps': None, 'max_time': None, 'limit_train_batches': None, 'limit_val_batches': None, 'limit_test_batches': None, 'limit_predict_batches': None, 'val_check_interval': None, 'log_every_n_steps': 100, 'accelerator': None, 'strategy': None, 'sync_batchnorm': False, 'precision': 16, 'enable_model_summary': True, 'num_sanity_val_steps': 2, 'resume_from_checkpoint': None, 'profiler': None, 'benchmark': None, 'deterministic': None, 'reload_dataloaders_every_n_epochs': 0, 'auto_lr_find': False, 'replace_sampler_ddp': True, 'detect_anomaly': False, 'auto_scale_batch_size': False, 'plugins': None, 'amp_backend': 'native', 'amp_level': None, 'move_metrics_to_cpu': False, 'multiple_trainloader_mode': 'max_size_cycle', 'inference_mode': True, 'func': 'train'}
+2022-11-19 15:51:53,350 WARN    MsgRouterThr:20 [router.py:message_loop():77] message_loop has been closed
